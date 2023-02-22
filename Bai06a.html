@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        .tb_a {
+            margin: 0 auto;
+            width: 40%;
+        }
+
+        .tb_a tr{
+            height:100px;
+            text-align: center;
+        }
+
+        .tb_a .orange {
+            background-color: yellow;
+        }
+
+        .tb_a .yellow {
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="tb_a">
+        <table class="tb_6a" width = 100%>
+            <tr>
+                <td>1</td>
+                <td colspan="4">2</td>    
+            </tr>
+            <tr>
+                <td rowspan="3">3</td>
+                <td class="yellow">4</td>
+                <td class="yellow">5</td>
+                <td class="orange" rowspan="2">6</td>       
+            </tr>
+            <tr>
+                <td class="yellow">7</td>
+                <td class="yellow">8</td>
+            </tr>
+            <tr>
+                <td class="orange" colspan="2">9</td>
+                <td class="orange">10</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
